@@ -4,7 +4,6 @@
 **Disciplina:** Inteligência Artificial  
 **Professor:** Alexandre Arruda  
 **Entrega via SIGAA até:** 25 de junho  
-**Grupo:** Até 3 pessoas  
 
 ---
 
@@ -29,7 +28,6 @@ Implementar algoritmos que forneçam uma solução para o Cubo Mágico em duas c
 
 - Node.js (JavaScript)
 - API própria para representação do Cubo Mágico
-- `fs` para geração de relatórios
 - `readline` para menu interativo no terminal
 
 ---
@@ -54,7 +52,7 @@ Implementar algoritmos que forneçam uma solução para o Cubo Mágico em duas c
    [Download Node.js](https://nodejs.org)
 3. Execute o projeto no terminal:
    ```bash
-   node rubiksCube.js
+   node main.js
    ```
 4. Use o menu interativo para escolher o algoritmo desejado.
 
@@ -69,33 +67,13 @@ Para cada execução, o sistema gera automaticamente arquivos com os seguintes d
 - 🌱 Número de nós expandidos
 - 🔀 Fator de ramificação média
 
-Arquivos de saída:
-- `relatorio_astar.json`
-- `relatorio_bfs.json`
-- `relatorio_iddfs.json`
-- `historico_execucoes.json`
-
 ---
 
-## 📌 Observação
 
-> A Busca em Largura (BFS) é executada apenas para cubos embaralhados com até 3 movimentos, evitando explosão combinatória. O algoritmo principal recomendado é o A\* com heurística.
-
----
-
-## 👨‍💻 Grupo
-
-| Nome               | Matrícula    |
-|--------------------|--------------|
-| Cauê Girão         | 202XXXXX     |
-| Nome Integrante 2  | 202XXXXX     |
-| Nome Integrante 3  | 202XXXXX     |
-
----
 
 ## 🏁 Resultado Esperado
 
-O sistema resolve o Cubo Mágico embaralhado com até **6 movimentos** usando o algoritmo A\*, gerando relatórios detalhados e gráficos comparativos.
+O sistema resolve o Cubo Mágico embaralhado com até **14 movimentos** usando o algoritmo A\*, e ate 5 movimentos com os 3 algoritmos gerando relatórios detalhados e gráficos comparativos.
 
 ---
 
